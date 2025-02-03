@@ -8,3 +8,22 @@
 h1{
     text-align: center;
 }
+.btn{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+#inc{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+#dec{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.val{
+    text-align: center;
+}

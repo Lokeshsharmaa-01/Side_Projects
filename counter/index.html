@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
     <h1>Counter app</h1>
     <div>
-
+        <p style="text-align: center; " >0</p>
+    </div>
+    <div class="btn">
+        <button id="inc" onclick="increse()">+</button>
+        <button id="dec" onclick="decrese()">-</button>
+    </div>
+    <div class="val">Increase by value :
+        <input type="number" id="inp">
     </div>
     <div>
-        <button>+</button>
-        <button>-</button>
+        <button id="rst">reset</button>
     </div>
-    <div>Increase by value</div>
 </body>
 </html>
