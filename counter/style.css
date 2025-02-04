@@ -27,3 +27,12 @@ h1{
 .val{
     text-align: center;
 }
+#rstt{
+    display: flex;
+    justify-content: center;
+}
+#rst{
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+}
